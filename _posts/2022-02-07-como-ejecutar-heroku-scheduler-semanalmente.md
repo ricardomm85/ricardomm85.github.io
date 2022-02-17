@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como ejecutar Heroku Scheduler semanalmente
+title: Cómo ejecutar Heroku Scheduler semanalmente
 date: 2022-02-07 08:46:07 +0100
 ---
 
