@@ -24,3 +24,18 @@ Para permitir que la aplicación tenga permisos puedes utilizar los siguiente co
 snap connect mysql-workbench-community:password-manager-service
 snap connect mysql-workbench-community:ssh-keys
 ```
+
+**Error**
+
+```
+Error Looking Up Password
+
+An AppArmor policy prevents this sender from sending this message
+to this recipient; type="method_call", sender=":1.111" (uid=1000
+pid=9999 comm="/snap/mysql-workbench-community/9/usr/bin/mysql-wo"
+label="snap.mysql-workbench-community.mysql-workbench-community
+(enforce)") interface="org.freedesktop.Secret.Service"
+member="OpenSession” error name="(unset)" requested_reply="0"
+destination=":1.11" (uid=1000 pid=9999 comm="/usr/bin/gnome-keyring-daemon
+--daemonize --login" label="unconfined")
+```
