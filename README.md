@@ -1,4 +1,6 @@
-Init:
+## Run project
+docker-compose up
 
-docker run --rm --volume="$PWD:/srv/jekyll" -it jekyll/jekyll:3.8  jekyll new
+## Access container
+docker exec -it ricardomm85_jekyll_1 bash
 
